@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Patika-Solidity/Variables.sol": "Variables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Patika-Solidity/Variables.sol": {
+			"keccak256": "0xe5e2998c9c8c930ba0e207f58a09471fdc9fe916c40554b764b1d32b7ef42634",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d944bf01ec7a4b5874e3e04e9e99b26f40bc4555bc17aa40ad60d4e0e44c4e60",
+				"dweb:/ipfs/QmQNHeYemEi1kUni46M2Ya7V7e2JFt1pRKpRhfeZrSVDv1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Patika-Solidity/events.sol": "Event"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Patika-Solidity/events.sol": {
+			"keccak256": "0xc22098d1f28fe13a4cda5ef180c783757621b2df2d4a30495391cd1e8d713200",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6465736edaa2fc3660c93a3c1ecfb3e2cb2af79ee7d2e1d5aa2e2b16eacedc5",
+				"dweb:/ipfs/QmQ29puqiEirS4HT83EQw4CXn9t96EbUPw1kAk6TAYFduD"
+			]
+		}
+	},
+	"version": 1
+}

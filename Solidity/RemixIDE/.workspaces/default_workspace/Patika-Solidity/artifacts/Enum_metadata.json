@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Patika-Solidity/EnumImport.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Patika-Solidity/EnumDeclaration.sol": {
+			"keccak256": "0x405662a9a2179aaf96eb2827bdc26e580d525cab4c427ba1e8f9c4221ccc4c9d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9da0ff88639f9c580cc6d1fe562cc2d12b30b2d5743ce4e8faa2d4566865c1bb",
+				"dweb:/ipfs/QmThUoRedNaJCZQmYWd2NbFXHhNe4Qtx5FttRg58XvNssu"
+			]
+		},
+		"Patika-Solidity/EnumImport.sol": {
+			"keccak256": "0x23d3879ea794fdb91e1ca3e2e0d58b04e521195c7237af7d2be7842ac20b5814",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff04cbd937efe2369039929d929cebfd4544f9c22ea0d8e639b4220b99ab96ca",
+				"dweb:/ipfs/QmdwkGkqS2aHfy97K96TGTGXnmk8y8zXDA8xAdynwkj9Je"
+			]
+		}
+	},
+	"version": 1
+}

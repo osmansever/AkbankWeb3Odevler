@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Patika-Solidity/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Patika-Solidity/HelloWorld.sol": {
+			"keccak256": "0xe8bd8d4db4130ce51f59837a6bcf1c79c4344bb5907888519def75552260b851",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aabc0a633222c71f4d849f98fb8983d37aff66b51baa28a787df83dd4f4ac79f",
+				"dweb:/ipfs/QmTex4Ru6RcrB8mKY4zeuWGe2oRZxGTnobjbdaKqqukaV7"
+			]
+		}
+	},
+	"version": 1
+}

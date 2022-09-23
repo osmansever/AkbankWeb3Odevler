@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Patika-Solidity/parent_constructor.sol": "X"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Patika-Solidity/parent_constructor.sol": {
+			"keccak256": "0x2c549c76ef728d05abe7e64c105a00872b16c52bd742f4d14808011b4380af35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6bab6c083fa4d52acd4038f97271b493755986606a3c2c5d6264ee5c6132121d",
+				"dweb:/ipfs/QmWs4ocDu1tF1VXrb8GjkfD8oVkgoXwwduiKYG6cPDpQfo"
+			]
+		}
+	},
+	"version": 1
+}

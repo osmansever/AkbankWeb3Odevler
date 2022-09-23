@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Patika-Solidity/deneme.sol": "Loop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Patika-Solidity/deneme.sol": {
+			"keccak256": "0x1695afa8ea14c065eb3c3e00099cc8392be838da3ed102be4319cfdcb9f26b04",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://71eb2c0bb9502c778daa5360f75b960d39cf9a28557192c7879798b09f268b9b",
+				"dweb:/ipfs/QmNqpQU5Vjz4zh2zXBZf7AKT6z7atxXdyrEm9NYCJGa4if"
+			]
+		}
+	},
+	"version": 1
+}
