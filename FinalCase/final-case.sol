@@ -39,7 +39,7 @@ contract UniversalBank {
     }
 
     function withdraw(address payable to, uint amount) validAddress(msg.sender) external  {
-
+        require(msg.sender == to,"Not owner of account");
         require(balances[msg.sender] >= amount,"Insufficent funds for this account");
         to.transfer(amount);
         balances[msg.sender] -= amount;
